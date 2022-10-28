@@ -54,7 +54,52 @@ header ul li:last-child {
 /* Mission settings */
 
 .mission {
-    background-image: url(/imgs/img-mission-background.jpg);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     height: 700px;
-    width: 1200px;
+    width: 100%;
+    background-image: url(/imgs/img-mission-background.jpg);
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission h2, .mission h4 {
+    width: 100%;
+    background-color: black;
+    padding: 10px 0;
+}
+
+main {
+    margin: 0 50px;
+}
+
+/* Month section setting */
+
+.month {
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.month > h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.items_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.month_item {
+    margin: 10px 30px;
+}
+
+.month_item img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 5px;
 }
