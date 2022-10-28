@@ -101,5 +101,59 @@ main {
 .month_item img {
     width: 300px;
     height: 200px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* Locations settings */
+
+.locations {
+    opacity: 1;
+    text-align: center;
+    background-image: url(/imgs/img-locations-background.jpg);
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 50px;
+    overflow: hidden;   
+}
+
+.locations > h2 {
+    position: absolute;
+    padding-bottom: 350px;
+}
+
+.loc_items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.loc_item {
+    width: 300px;
+    margin-top: 15px;
+    background-color: black;
+    margin-right: 40px;
+    padding: 30px 0;
+    line-height: 2.5;
+}
+
+.loc_item:last-child {
+    margin-right: 0;
+}
+
+/* Footer settings */
+
+footer {
+    line-height: 2.5;
+    height: 200px;
+}
+
+.copyrights {
+    text-align: left;
+    margin: 20px;
 }
