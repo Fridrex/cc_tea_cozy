@@ -59,7 +59,7 @@ header ul li:last-child {
     flex-wrap: nowrap;
     height: 700px;
     width: 100%;
-    background-image: url(/imgs/img-mission-background.jpg);
+    background-image: url(imgs/img-mission-background.jpg);
     align-content: center;
     align-items: center;
     justify-content: center;
@@ -109,7 +109,7 @@ main {
 .locations {
     opacity: 1;
     text-align: center;
-    background-image: url(/imgs/img-locations-background.jpg);
+    background-image: url(imgs/img-locations-background.jpg);
     width: 100%;
     height: 500px;
     display: flex;
